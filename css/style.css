@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+header {
+    background: #020617;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: #f4f4f4;
+    color: #000;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #0077ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#projects {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.project-card {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+}
+#skills {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills-container {
+    margin-top: 20px;
+}
+
+.skills-container span {
+    display: inline-block;
+    background: #0077ff;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 20px;
+}
+#contact {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contact p {
+    margin: 10px 0;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    color: white;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* Your existing CSS here */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+    color: white;
+}
+
+/* Add this BELOW everything */
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+.hero {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.3rem;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.skills-container span {
+    transition: 0.3s;
+}
+
+.skills-container span:hover {
+    transform: scale(1.1);
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+}
+
+/* all your existing CSS */
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+
+/* Add this at the very end */
+
+section {
+    min-height: 100vh;
+}
